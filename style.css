@@ -1,0 +1,110 @@
+body {
+  padding: 0;
+  text-align: center;
+  font-family: "Source Sans Pro";
+
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/* .navbar .nav-bar .navbar-nav .navbar-toggler .collapse .navbar-collapse {
+  float: none;
+  vertical-align: top;
+  text-align: center;
+}
+
+.collapse .navbar-collapse {
+  text-align: center;
+}
+
+.nav-bar {
+  float: none;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.nav-bar-nav > li {
+  display: inline-block;
+  float: none;
+} */
+.navbar-nav {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.navbar-nav > li {
+  display: inline-block;
+  float: none;
+}
+#home {
+  text-align: center;
+  background-color: beige;
+  /* background-image: url("./images/blurred-bookshelves-library/342332-PA9PQU-603.jpg");
+  background-size: cover; */
+  width: 100%;
+}
+
+.card {
+  margin: 30px;
+  padding: 30px;
+  width: 1000px;
+  background-color: rgba(100, 100, 100, 1);
+}
+.btn-start {
+  padding: 30px 50px;
+  font-size: 25px;
+  margin: 20px;
+}
+
+.card-img-overlay {
+  padding: 50px;
+}
+
+h5 {
+  color: black;
+}
+h1 {
+  color: black;
+}
+.container {
+  display: flex;
+}
+#game-board {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-intro {
+  float: left;
+  padding: 0% 5%;
+}
+
+.home-intro p {
+  font-size: 18px;
+  font-family: "Source Sans Pro", cursive;
+}
+p {
+  color: black;
+  font-size: 18px;
+  font-family: "Source Sans Pro", cursive;
+
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+body button {
+  font-size: 15px;
+  background-color: rgba(54, 51, 51, 0.815);
+  color: #fff;
+  padding: 5px 10px;
+  border: 0;
+  box-shadow: 0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.my-section {
+  border-color: blanchedalmond;
+}
