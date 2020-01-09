@@ -7,6 +7,7 @@ let state = {
         state.myskills = false
         state.myeducation = false
         state.mypersona = false
+        state.mywork = false
 
 
     },
@@ -15,11 +16,21 @@ let state = {
         state.myprojects = false
         state.myeducation = false
         state.mypersona = false
+        state.mywork = false
 
     },
     startMyEducation: () => {
 
         state.myeducation = true
+        state.myprojects = false
+        state.myskills = false
+        state.mypersona = false
+        state.mywork = false
+
+    },
+    startMyWork: () => {
+        state.mywork = true
+        state.myeducation = false
         state.myprojects = false
         state.myskills = false
         state.mypersona = false
@@ -63,6 +74,7 @@ function startMyProjects() {
     document.getElementById("my-education").style.display = "none"
     document.getElementById("my-projects").style.display = "block"
     document.getElementById("my-persona").style.display = "none"
+    document.getElementById("my-work").style.display = "none"
 
 }
 
@@ -87,6 +99,7 @@ function startMySkills() {
     document.getElementById("my-education").style.display = "none"
     document.getElementById("my-projects").style.display = "none"
     document.getElementById("my-persona").style.display = "none"
+    document.getElementById("my-work").style.display = "none"
 
 }
 
@@ -109,6 +122,7 @@ function startMyEducation() { // define a new state and act between
     document.getElementById("my-education").style.display = "block"
     document.getElementById("my-projects").style.display = "none"
     document.getElementById("my-persona").style.display = "none"
+    document.getElementById("my-work").style.display = "none"
 
 
 
@@ -125,8 +139,8 @@ window.onload = function () {
     document.getElementById("nav-bar").style.display = "none"
     document.getElementById("my-skills").style.display = "none"
     document.getElementById("my-education").style.display = "none"
-
     document.getElementById("my-persona").style.display = "none"
+    document.getElementById("my-work").style.display = "none"
     // document.getElementById("user-input").style.display = "none"
     // document.getElementById("game-board").style.display = "none"
 
@@ -153,6 +167,7 @@ window.onload = function () {
         document.getElementById("my-skills").style.display = "none"
         document.getElementById("my-persona").style.display = "none"
         document.getElementById("my-education").style.display = "none"
+        document.getElementById("my-work").style.display = "none"
         state.startMyProjects()
     }
 
@@ -162,6 +177,7 @@ window.onload = function () {
         document.getElementById("my-projects").style.display = "none"
         document.getElementById("my-persona").style.display = "none"
         document.getElementById("my-education").style.display = "none"
+        document.getElementById("my-work").style.display = "none"
         state.startMySkills()
     }
 
@@ -171,8 +187,19 @@ window.onload = function () {
         document.getElementById("my-education").style.display = "block"
         document.getElementById("my-projects").style.display = "none"
         document.getElementById("my-persona").style.display = "none"
+        document.getElementById("my-work").style.display = "none"
         state.startMyEducation()
     }
+
+    let work = document.getElementById('My-Work');
+    work.onclick = function () {
+        document.getElementById("my-skills").style.display = "none"
+        document.getElementById("my-education").style.display = "none"
+        document.getElementById("my-projects").style.display = "none"
+        document.getElementById("my-persona").style.display = "none"
+        document.getElementById("my-work").style.display = "block"
+        state.startMyWork()
+    };
 
     let pers = document.getElementById('My-Pers');
     pers.onclick = function () {
@@ -180,6 +207,7 @@ window.onload = function () {
         document.getElementById("my-education").style.display = "none"
         document.getElementById("my-projects").style.display = "none"
         document.getElementById("my-persona").style.display = "block"
+        document.getElementById("my-work").style.display = "none"
         state.startMyPersona()
     };
 
