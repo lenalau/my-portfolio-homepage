@@ -38,6 +38,10 @@ body {
   display: inline-block;
   float: none;
 }
+
+nav {
+  text-align: center;
+}
 #home {
   text-align: center;
   background-color: beige;
@@ -107,4 +111,33 @@ body button {
 
 .my-section {
   border-color: blanchedalmond;
+  display: flex;
+  position: absolute;
+}
+/* .section-title {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  text-align: end;
+} */
+.sub-section {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: start;
+  width: 500px;
+  height: 400px;
+  border-width: 4px;
+  border-color: blanchedalmond;
+}
+.two {
+  margin-left: 550px;
+  margin-top: 250px;
+}
+.three {
+  margin-top: 550px;
+}
+.align-end {
+  text-align: start;
 }
