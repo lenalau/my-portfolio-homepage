@@ -170,7 +170,7 @@ footer {
   transition-delay: 0.1s;
 }
 .box9 .box-content {
-  padding: 30px 10px 30px 83px;
+  padding-left: 33%;
   background: rgba(0, 0, 0, 0.65);
   position: absolute;
   top: 0;
