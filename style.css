@@ -2,9 +2,8 @@ body {
   padding: 0;
   text-align: center;
   font-family: "Source Sans Pro";
-
-  background-repeat: no-repeat;
   height: 100vh;
+  background-repeat: no-repeat;
 }
 
 /* .navbar .nav-bar .navbar-nav .navbar-toggler .collapse .navbar-collapse {
@@ -146,4 +145,11 @@ body button {
 }
 .align-end {
   text-align: start;
+}
+footer {
+  padding: 10px;
+
+  /* background-color: #da575e; */
+  font-size: smaller;
+  color: white;
 }
