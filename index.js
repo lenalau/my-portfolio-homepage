@@ -141,6 +141,7 @@ window.onload = function () {
     document.getElementById("my-education").style.display = "none"
     document.getElementById("my-persona").style.display = "none"
     document.getElementById("my-work").style.display = "none"
+    document.getElementById("footer").style.display = "none"
     // document.getElementById("user-input").style.display = "none"
     // document.getElementById("game-board").style.display = "none"
 
@@ -220,6 +221,7 @@ window.onload = function () {
         document.getElementById("my-skills").style.display = "block"
         document.getElementById("my-education").style.display = "none"
         document.getElementById("my-persona").style.display = "none"
+        document.getElementById("footer").style.display = "block"
 
 
     };
