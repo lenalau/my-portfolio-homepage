@@ -28,6 +28,9 @@ body {
   display: inline-block;
   float: none;
 } */
+.navbar-brand {
+  margin-left: 15px;
+}
 .navbar-nav {
   float: none;
   margin: 0 auto;
@@ -109,11 +112,14 @@ body button {
   margin-bottom: 20px;
 }
 
-.my-section {
+/* .my-section {
   border-color: blanchedalmond;
   display: flex;
-  position: absolute;
-}
+  width: 100vh;
+  border: 3px;
+  justify-content: center;
+  flex-direction: column;
+} */
 /* .section-title {
   display: flex;
   position: absolute;
@@ -122,12 +128,12 @@ body button {
 } */
 .sub-section {
   display: flex;
-  position: absolute;
+  position: relative;
   flex-direction: column;
   flex-wrap: wrap;
+  justify-content: start;
   text-align: start;
   width: 500px;
-  height: 400px;
   border-width: 4px;
   border-color: blanchedalmond;
 }
