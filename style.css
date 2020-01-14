@@ -184,14 +184,14 @@ footer {
   transition: all 2s ease 0s;
   transition-delay: 0.5s;
 }
-.box9 .title {
+/* .box9 .title {
   font-weight: 700;
   color: #fff;
   line-height: 17px;
   margin: 5px 0;
   position: absolute;
   bottom: 55%;
-}
+} */
 .box10 .icon li a,
 .box9 .icon li a {
   line-height: 32px;
@@ -227,8 +227,10 @@ footer {
   font-size: 20px;
   color: #000;
   margin-right: 5px;
+
   transition: all 2s ease 0s;
 }
+
 .box9 .icon a:hover {
   background: #fff;
 }
