@@ -237,3 +237,11 @@ footer {
     margin-bottom: 20px;
   }
 }
+
+.icon-list i {
+  margin-left: 20px;
+}
+
+.insti-icon {
+  justify-content: flex-end;
+}
