@@ -28,17 +28,23 @@
         <div class="card bg-dark text-white">
 
             <img src="./images/fredy-jacob-t0SlmanfFcg-unsplash.jpg" class="card-img" alt="...">
-            <div class="card-img-overlay">
-                <i> <q style="color:grey">Continuous improvement is better than delayed perfection</q></i>
-                <p style="font-size: 15px">Mark Twain</p>
+            <div class="container">
+                <div class="row">
+                    <div class="card-img-overlay">
+                        <i> <q style="color:grey">Continuous improvement is better than delayed perfection</q></i>
+                        <p style="font-size: 15px">Mark Twain</p>
 
-                <h5 class="card-title">Hello! You are entering the website of Lena Lau, Web Developer,
-                    based in Berlin.
-                </h5>
+                        <h5 class="card-title">Hello! You are entering the website of Lena Lau, Web Developer,
+                            based in Berlin.
+                        </h5>
 
-                <p class="card-text">Learn more about my portfolio, my technical education and my personal background.
-                </p> <br><br><br><br><br><br> <br><br>
-                <button id="start-button" class="btn-start">Enter</button>
+                        <p class="card-text">Learn more about my portfolio, my technical education and my personal
+                            background.
+                        </p> <br>
+
+                        <button id="start-button" class="btn-start">Enter</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -64,12 +70,22 @@
                     <a class="nav-link" href="#MyProjects" mypro="My-Pro">Coding Projects</a>
                 </li>
 
-                <li class="nav-item">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#dropdown-menu" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Background
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#MyEducation" id="My-Edu">Educational Background</a>
+                        <a class="dropdown-item" href="#MyWork" id="My-Work">Working Background</a>
+                    </div>
+                </li>
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="#MyEducation" id="My-Edu">Educational Background</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#MyWork" id="My-Work">Working Background</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="#MyPersona" id="My-Pers">About Me</a>
                 </li>
