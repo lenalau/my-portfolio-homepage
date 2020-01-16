@@ -212,10 +212,23 @@ window.onload = function () {
         state.startMyPersona()
     };
 
+    let home = document.getElementById('home-intro');
+    home.onclick = function () {
+        document.getElementsByClassName("home-intro")[0].style.display = "block"
+        document.getElementById("my-skills").style.display = "none"
+        document.getElementById("my-education").style.display = "none"
+        document.getElementById("my-projects").style.display = "none"
+        document.getElementById("my-persona").style.display = "none"
+        document.getElementById("my-work").style.display = "none"
+        document.getElementById("nav-bar").style.display = "none"
+        document.getElementById("footer").style.display = "none"
+        state.startMyPersona()
+    };
+
 
     document.getElementById("start-button").onclick = function () {
 
-        document.getElementsByClassName("home-intro")[0].remove()
+        document.getElementsByClassName("home-intro")[0].style.display = "none"
         document.getElementById("my-projects").style.display = "none"
         document.getElementById("nav-bar").style.display = "block"
         document.getElementById("my-skills").style.display = "block"

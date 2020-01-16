@@ -1,6 +1,6 @@
 body {
   padding: 0;
-  text-align: center;
+
   font-family: "Source Sans Pro";
   height: 100vh;
   background-repeat: no-repeat;
@@ -27,23 +27,35 @@ body {
   display: inline-block;
   float: none;
 } */
-.navbar-brand {
-  margin-left: 15px;
+.collapse {
+  text-align: start;
 }
+
+.navbar > button {
+  float: none;
+  vertical-align: top;
+  text-align: center;
+  margin-left: 12%;
+}
+.navbar-brand {
+  margin-left: 40px;
+}
+
 .navbar-nav {
   float: none;
   margin: 0 auto;
-  text-align: center;
 }
 
 .navbar-nav > li {
   display: inline-block;
   float: none;
+  margin-left: 40px;
+  /* text-align: end; */
 }
 
-nav {
+/* nav {
   text-align: center;
-}
+} */
 #home {
   text-align: center;
   background-color: beige;
@@ -74,6 +86,9 @@ h5 {
 }
 h1 {
   color: black;
+}
+h2 {
+  text-align: center;
 }
 .container {
   display: flex;
@@ -149,7 +164,7 @@ body button {
 }
 footer {
   padding: 10px;
-
+  text-align: center;
   /* background-color: #da575e; */
   font-size: smaller;
   color: white;
